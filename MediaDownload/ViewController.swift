@@ -32,7 +32,7 @@ class ViewController: UIViewController, UITableViewDelegate, MBProgressHUDDelega
         
         let barButtonItemRefresh = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Refresh, target: self, action: "buttonRefreshTapped") as UIBarButtonItem
         self.navigationItem.rightBarButtonItem = barButtonItemRefresh
-        
+
         initialize()
         
     }
